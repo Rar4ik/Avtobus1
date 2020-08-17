@@ -1,0 +1,15 @@
+C:\Users\mrava\source\repos\Avtobus1\Avtobus1\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\mrava\source\repos\Avtobus1\Avtobus1\bin\Debug\netcoreapp2.1\Avtobus1.deps.json
+C:\Users\mrava\source\repos\Avtobus1\Avtobus1\bin\Debug\netcoreapp2.1\Avtobus1.runtimeconfig.json
+C:\Users\mrava\source\repos\Avtobus1\Avtobus1\bin\Debug\netcoreapp2.1\Avtobus1.runtimeconfig.dev.json
+C:\Users\mrava\source\repos\Avtobus1\Avtobus1\bin\Debug\netcoreapp2.1\Avtobus1.dll
+C:\Users\mrava\source\repos\Avtobus1\Avtobus1\obj\Debug\netcoreapp2.1\Avtobus1.csprojAssemblyReference.cache
+C:\Users\mrava\source\repos\Avtobus1\Avtobus1\obj\Debug\netcoreapp2.1\Avtobus1.RazorAssemblyInfo.cache
+C:\Users\mrava\source\repos\Avtobus1\Avtobus1\obj\Debug\netcoreapp2.1\Avtobus1.RazorAssemblyInfo.cs
+C:\Users\mrava\source\repos\Avtobus1\Avtobus1\obj\Debug\netcoreapp2.1\Avtobus1.AssemblyInfoInputs.cache
+C:\Users\mrava\source\repos\Avtobus1\Avtobus1\obj\Debug\netcoreapp2.1\Avtobus1.AssemblyInfo.cs
+C:\Users\mrava\source\repos\Avtobus1\Avtobus1\obj\Debug\netcoreapp2.1\Avtobus1.RazorTargetAssemblyInfo.cache
+C:\Users\mrava\source\repos\Avtobus1\Avtobus1\obj\Debug\netcoreapp2.1\Avtobus1.genruntimeconfig.cache
+C:\Users\mrava\source\repos\Avtobus1\Avtobus1\bin\Debug\netcoreapp2.1\Avtobus1.pdb
+C:\Users\mrava\source\repos\Avtobus1\Avtobus1\obj\Debug\netcoreapp2.1\Avtobus1.dll
+C:\Users\mrava\source\repos\Avtobus1\Avtobus1\obj\Debug\netcoreapp2.1\Avtobus1.pdb

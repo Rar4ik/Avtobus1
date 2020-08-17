@@ -1,0 +1,43 @@
+﻿@model IEnumerable<Avtobus1.Models.Entity.UrlEntity>
+
+@{
+    ViewBag.Title = "Cсылки";
+}
+
+
+<a asp-action="Create" class="btn btn-primary">Создать</a>
+<div id="avt">
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Id</th>
+            <th>LongUrl</th>
+            <th>ShortUrl</th>
+            <th>Creation Date</th>
+            <th>Clickers</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var link in Model)
+        {
+            <tr>
+                <td>@link.Id</td>
+                <td>@link.LongUrl</td>
+                <td>
+                    <form asp-action="Redirect" method="post" asp-route-id="@link.Id" target="_blank">
+                        <input type="submit" value="@link.ShortUrl" class="btn btn-primary" />
+                    </form>
+                </td>
+                <td>@link.CreateDate</td>
+                <td>@link.Counter</td>
+                <td><a asp-action="Delete" asp-route-id="@link.Id" class="btn btn-danger">Удалить</a></td>
+                <td><a asp-action="Edit" asp-route-id="@link.Id" class="btn btn-info">Редактировать</a></td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>
+
+<script>
+   
+</script>

@@ -1,0 +1,5 @@
+C:\Users\mrava\source\repos\Avtobus1\Avtobus1\obj\Debug\netcoreapp3.1\Avtobus1.csprojAssemblyReference.cache
+C:\Users\mrava\source\repos\Avtobus1\Avtobus1\obj\Debug\netcoreapp3.1\Avtobus1.csproj.CoreCompileInputs.cache
+C:\Users\mrava\source\repos\Avtobus1\Avtobus1\obj\Debug\netcoreapp3.1\Avtobus1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mrava\source\repos\Avtobus1\Avtobus1\obj\Debug\netcoreapp3.1\Avtobus1.AssemblyInfoInputs.cache
+C:\Users\mrava\source\repos\Avtobus1\Avtobus1\obj\Debug\netcoreapp3.1\Avtobus1.AssemblyInfo.cs
