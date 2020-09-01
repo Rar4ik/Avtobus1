@@ -20,16 +20,16 @@
         <tbody>
         @foreach (var link in Model)
         {
-            <tr>
+            <tr class="item">
                 <td>@link.Id</td>
                 <td>@link.LongUrl</td>
-                <td>
+                <td class="initCounter">
                     <form asp-action="Redirect" method="post" asp-route-id="@link.Id" target="_blank">
                         <input type="submit" value="@link.ShortUrl" class="btn btn-primary" />
                     </form>
                 </td>
                 <td>@link.CreateDate</td>
-                <td>@link.Counter</td>
+                <td class="counter">@link.Counter</td>
                 <td><a asp-action="Delete" asp-route-id="@link.Id" class="btn btn-danger">Удалить</a></td>
                 <td><a asp-action="Edit" asp-route-id="@link.Id" class="btn btn-info">Редактировать</a></td>
             </tr>
@@ -38,6 +38,18 @@
     </table>
 </div>
 
-<script>
-   
+<script type="text/javascript">
+
+    var counts = document.querySelectorAll(".item");
+    counts.forEach(Handler);
+
+    function Handler(count) {
+        var increment = count.querySelector(".initCounter");
+        var number = count.querySelector(".counter");
+
+        increment.addEventListener("click", function() {
+            number.innerText++;
+        });
+    }
+
 </script>
